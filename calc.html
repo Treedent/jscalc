@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculatrice JS ;-)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/calc.css">
+</head>
+<body>
+<main>
+  <div class="container card p-4 metal linear" id="calc" style="width:23rem;">
+    <div class="row">
+      <div class="col">
+        <label for="result">Calculatrice JS&nbsp;&nbsp;&nbsp;;-)</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <input type="text" id="result" class="form-control form-control-color" readonly autocomplete="off" value="0">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="7">7</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="8">8</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="9">9</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear operateur" data-value="/">/</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear action" data-value="efface">C</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="4">4</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="5">5</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="6">6</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear operateur" data-value="*">&lowast;</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear sigle" data-value="(">(</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="1">1</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="2">2</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="3">3</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear operateur" data-value="-">-</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear sigle" data-value=")">)</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-2">
+            <button class="metal linear chiffre" data-value="0">0</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear sigle" data-value=".">,</button>
+          </div>
+          <div class="col-2">
+            <button class="metal linear operateur" data-value="%">%</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear operateur" data-value="+">+</button>
+          </div>
+          <div class="col-3">
+            <button class="metal linear action" data-value="calcule">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="js/calc.js"></script>
+</body>
+</html>
