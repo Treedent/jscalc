@@ -15,6 +15,7 @@ main {
 #calc {
   transform: scale(1.2) translateY(80px);
   margin: auto;
+  width:23rem;
 }
 
 #result {

@@ -2,7 +2,7 @@
 var CALC = CALC || {};
 
 let d = document;
-let operators = ['/', '*', '-', '+'];
+let operators = ['/', '*', '-', '+', '%'];
 
 // Variables gérées dans l'application
 CALC.vars = {
